@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Wonders Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body onload="addTabIndex()">
+
+    <div id="image">
+        Hover over an image below or use the Tab key to display here.
+    </div>
+
+    <img class="preview" alt="The Great Wall of China" 
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="The Roman Colosseum in Italy" 
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="The Ancient City of Petra, Jordan" 
+         src="https://cdn.britannica.com/24/153524-050-BA9D084B/Al-Dayr-Petra-Jordan.jpg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Machu Picchu in Peru" 
+         src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Chichen Itza Mayan Ruins, Mexico" 
+         src="https://upload.wikimedia.org/wikipedia/commons/5/51/Chichen_Itza_3.jpg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="The Taj Mahal in India" 
+         src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
